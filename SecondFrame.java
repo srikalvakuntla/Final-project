@@ -14,8 +14,8 @@ import java.awt.image.BufferedImage;
 
 public class SecondFrame extends JButton implements ActionListener{
 JFrame mainFrame;
-JPanel firstPanel;
-JPanel secondPanel;
+public JPanel secondPanel;
+
 JLabel firstLabel;
 JButton start;
 
@@ -23,48 +23,46 @@ JButton easy;
 JButton medium;
 JButton hard;
 public SecondFrame(){
-	
-	// main frame creation
-	this.mainFrame = new JFrame("Connecting dots");
-	this.mainFrame.setPreferredSize(new Dimension(400, 600));
-	this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	this.mainFrame.pack();
-	this.mainFrame.setVisible(true);
-	this.mainFrame.setResizable(true);
-	
 	//main panel creation
-	this.firstPanel = new JPanel();
-	this.firstPanel.setBackground(new Color(0,255,255));
-	this.mainFrame.add(this.firstPanel);
-	
-	
+	this.secondPanel = new JPanel();
+	this.secondPanel.setBackground(new Color(96,96,96));
 	
 	// Jlabel 
 	this.firstLabel = new JLabel();
 	this.firstLabel.setText("Select the game level");
 	this.firstLabel.setPreferredSize(new Dimension(280, 400));
 	this.firstLabel.setFont(new Font("Papyrus", Font.BOLD, 30));
-	this.firstPanel.add(this.firstLabel);
-	
-	
+	this.secondPanel.add(this.firstLabel);
 	
 	// add jbutton
 	this.easy = new JButton("easy");
 	this.easy.setFont(new Font("Papyrus", Font.PLAIN, 20));
 	this.easy.setBounds(90, 230, 100, 50);
-	this.easy.addActionListener(this);
+	this.easy.setBackground(new Color(133,255,124));
+	this.easy.setOpaque(true);
+	this.easy.setBorderPainted(true);
+	this.easy.setBorder(BorderFactory.createLineBorder(Color.black,2));
+	//this.easy.addActionListener(this);
 	
 	// add jbutton
 	this.medium = new JButton("medium");
 	this.medium.setFont(new Font("Papyrus", Font.PLAIN, 20));
-	this.medium.setBounds(90, 280, 100, 50);
-	this.medium.addActionListener(this);
+	this.medium.setBounds(90, 290, 100, 50);
+	this.medium.setBackground(new Color(124,252,255));
+	this.medium.setOpaque(true);
+	this.medium.setBorderPainted(true);
+	this.medium.setBorder(BorderFactory.createLineBorder(Color.black,2));
+	//this.medium.addActionListener(this);
 	
 	//hard button
 	this.hard = new JButton("hard");
 	this.hard.setFont(new Font("Papyrus", Font.PLAIN, 20));
-	this.hard.setBounds(90, 330, 100, 50);
-	this.hard.addActionListener(this);
+	this.hard.setBounds(90, 350, 100, 50);
+	this.hard.setBackground(new Color(255,124,124));
+	this.hard.setOpaque(true);
+	this.hard.setBorderPainted(true);
+	this.hard.setBorder(BorderFactory.createLineBorder(Color.black,2));
+	//this.hard.addActionListener(this);
 	
 	// add jbutton to the panel
 	this.firstLabel.add(this.hard);
@@ -74,8 +72,6 @@ public SecondFrame(){
 	
 	// add jbutton to the panel
 	this.firstLabel.add(this.easy);
-	
-		
 }
 @Override
 public void actionPerformed(ActionEvent action)
@@ -84,7 +80,5 @@ public void actionPerformed(ActionEvent action)
 		System.out.println(input);
 		
 }
-
-
 
 }

@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'application'
 archivesBaseName = 'someJar'
 version = '1.0-SNAPSHOT' 
 
@@ -7,12 +8,8 @@ repositories {
     mavenCentral()
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'com.light.Driver'
-    }
-}
+sourceCompatibility = '17.0'
 
-dependencies {
-   compile  'log4j:log4j:1.2.16'
-} 
+application {
+    mainClassName = 'com.light.Driver'
+}

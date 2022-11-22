@@ -17,9 +17,9 @@ public class Level{
 		jframe.setResizable(true);
 		
 		//level selection 
-		secondPanel.easy.addActionListener(e -> Easy.easy1(jframe));
+		secondPanel.easy.addActionListener(e -> System.out.println("easy"));
 		
-		secondPanel.medium.addActionListener(e -> Medium.medium1(jframe));
+		secondPanel.medium.addActionListener(e -> System.out.println("medium"));
 		
 		secondPanel.hard.addActionListener(e -> System.out.println("hard"));
 	}

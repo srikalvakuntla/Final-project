@@ -24,11 +24,11 @@ dependencies {
     implementation("com.google.guava:guava:31.0.1-jre")
 }
 
-application {
-    // Define the main class for the application.
-    mainClass.set("projectGradle.Driver")
-}
 tasks.getByName<JavaExec>("run") {
     standardInput = System.`in`
 }
 
+application {
+    // Define the main class for the application.
+    mainClass.set("projectGradle.Driver")
+}

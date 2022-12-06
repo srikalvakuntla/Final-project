@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="projectGradle.model.EasyModelTesting" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-12-06T00:48:17" hostname="anirudhs-MacBook-Air.local" time="0.154">
+  <properties/>
+  <testcase name="easyDegreeTest0Degrees" classname="projectGradle.model.EasyModelTesting" time="0.001"/>
+  <testcase name="easyLableTest" classname="projectGradle.model.EasyModelTesting" time="0.151"/>
+  <testcase name="easyDegreeTest" classname="projectGradle.model.EasyModelTesting" time="0.0"/>
+  <testcase name="easyBooleanTest" classname="projectGradle.model.EasyModelTesting" time="0.0"/>
+  <testcase name="easyBooleanTestTrue" classname="projectGradle.model.EasyModelTesting" time="0.001"/>
+  <testcase name="easyBooleanTestFalse" classname="projectGradle.model.EasyModelTesting" time="0.0"/>
+  <testcase name="easyDegreeTestSize" classname="projectGradle.model.EasyModelTesting" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

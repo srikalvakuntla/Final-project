@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="projectGradle.model.MediumModelTesting" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-12-06T00:48:17" hostname="anirudhs-MacBook-Air.local" time="0.004">
+  <properties/>
+  <testcase name="mediumBooleanTestFalse" classname="projectGradle.model.MediumModelTesting" time="0.001"/>
+  <testcase name="mediumDegreeTest" classname="projectGradle.model.MediumModelTesting" time="0.0"/>
+  <testcase name="mediumDegreeTest90Degrees" classname="projectGradle.model.MediumModelTesting" time="0.0"/>
+  <testcase name="mediumImageTest" classname="projectGradle.model.MediumModelTesting" time="0.001"/>
+  <testcase name="mediumDegreeTestSize" classname="projectGradle.model.MediumModelTesting" time="0.0"/>
+  <testcase name="mediumLableTest" classname="projectGradle.model.MediumModelTesting" time="0.001"/>
+  <testcase name="mediumBooleanTestTrue" classname="projectGradle.model.MediumModelTesting" time="0.0"/>
+  <testcase name="mediumDegreeTest0Degrees" classname="projectGradle.model.MediumModelTesting" time="0.001"/>
+  <testcase name="mediumBooleanTest" classname="projectGradle.model.MediumModelTesting" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

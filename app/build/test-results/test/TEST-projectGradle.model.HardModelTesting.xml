@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="projectGradle.model.HardModelTesting" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-12-06T00:48:17" hostname="anirudhs-MacBook-Air.local" time="0.003">
+  <properties/>
+  <testcase name="hardBooleanTestTrue" classname="projectGradle.model.HardModelTesting" time="0.0"/>
+  <testcase name="hardImageIconTest" classname="projectGradle.model.HardModelTesting" time="0.002"/>
+  <testcase name="hardDegreeTest90Degrees" classname="projectGradle.model.HardModelTesting" time="0.0"/>
+  <testcase name="hardDegreeTestSize" classname="projectGradle.model.HardModelTesting" time="0.0"/>
+  <testcase name="hardDegreeTest" classname="projectGradle.model.HardModelTesting" time="0.0"/>
+  <testcase name="hardBooleanTest" classname="projectGradle.model.HardModelTesting" time="0.0"/>
+  <testcase name="hardDegreeTest0Degrees" classname="projectGradle.model.HardModelTesting" time="0.0"/>
+  <testcase name="hardBooleanTestFalse" classname="projectGradle.model.HardModelTesting" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

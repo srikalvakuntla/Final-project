@@ -30,5 +30,5 @@ tasks.getByName<JavaExec>("run") {
 
 application {
     // Define the main class for the application.
-    mainClass.set("projectGradle.Driver")
+    mainClass.set("light.Driver")
 }
